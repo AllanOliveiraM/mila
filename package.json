@@ -1,0 +1,20 @@
+{
+  "name": "mila_21",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "encrypt": "tsx src/main.ts -m encrypt",
+    "decipher": "tsx src/main.ts -m decipher"
+  },
+  "dependencies": {
+    "open": "^10.0.3",
+    "tsx": "^4.7.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/yargs": "^17.0.32",
+    "prettier": "^3.2.4"
+  }
+}

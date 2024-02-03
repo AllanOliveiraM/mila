@@ -1,0 +1,3 @@
+export const key = {
+  // ? Parece que algo falta...
+}
